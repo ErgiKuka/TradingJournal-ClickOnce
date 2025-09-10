@@ -1,0 +1,15 @@
+# Visual Studio temporary files
+*.suo
+*.user
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# ClickOnce temporary files
+*.publish/
+
+# Other common files to ignore
+*.log
+Thumbs.db

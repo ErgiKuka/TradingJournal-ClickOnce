@@ -1,0 +1,20 @@
+# This will handle most files correctly, normalizing line endings.
+* text=auto
+
+# Treat executable and other non-text files as binary to prevent corruption.
+*.exe binary
+*.dll binary
+*.pdb binary
+*.zip binary
+*.png binary
+*.jpg binary
+*.ico binary
+
+# IMPORTANT: Force Windows line endings (CRLF) for all ClickOnce text-based files.
+# This is the key to fixing the hash mismatch error.
+*.application text eol=crlf
+*.manifest text eol=crlf
+*.deploy text eol=crlf
+*.config text eol=crlf
+*.json text eol=crlf
+*.xml text eol=crlf
